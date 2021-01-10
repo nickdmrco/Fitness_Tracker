@@ -12,3 +12,5 @@ app.use(require('./routes'))
 require('./db')
  .then(() => app.listen(3000))
  .catch(err => console.log(err))
+
+ // http://localhost:3000
